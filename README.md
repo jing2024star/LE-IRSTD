@@ -22,21 +22,21 @@ datasets/[数据集名称]/
             └── test/
 
 ## 2.请确保 datasets.yaml 配置正确：
-path: /root/IRST_YOLO/ultralytics-main/datasets/IRSTD # dataset root dir
-train: images/train 
-val: images/val  
-test: images/test  
+        path: /root/IRST_YOLO/ultralytics-main/datasets/IRSTD # dataset root dir
+        train: images/train 
+        val: images/val  
+        test: images/test  
 
-# Classes
-names:
-  0: target
-  ...
+        # Classes
+        names:
+          0: target
+          ...
 
-## How To Train
+## 3.How To Train
 
-· ultralytics/models/v8/yolov8_4_Faststem_AVSFPN.yaml 改 nc: [类别数量]
-· python train.py
+        · ultralytics/models/v8/yolov8_4_Faststem_AVSFPN.yaml 改 nc: [类别数量]
+        · python train.py, 配置参数根据自己需求更改
 
-## How To Test
+## 4.How To Test
 
-· python val.py
+        · python val.py
