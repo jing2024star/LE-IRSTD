@@ -11,15 +11,15 @@ pip install -r requirements.txt
 ```
 
 ## 1.数据集准备
-datasets/[数据集名称]/
-        ├── images/
-        │   ├── train/
-        │   ├── val/datasets
-        │   └── test/
-        └── labels/
-            ├── train/
-            ├── val/
-            └── test/
+        datasets/[数据集名称]/
+                ├── images/
+                │   ├── train/
+                │   ├── val/datasets
+                │   └── test/
+                └── labels/
+                    ├── train/
+                    ├── val/
+                    └── test/
 
 ## 2.请确保 datasets.yaml 配置正确：
         path: /root/IRST_YOLO/ultralytics-main/datasets/IRSTD # dataset root dir
