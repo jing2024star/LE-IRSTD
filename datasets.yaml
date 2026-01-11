@@ -1,0 +1,9 @@
+
+path: /root/IRST_YOLO/ultralytics-main/datasets/IRSTD # dataset root dir
+train: images/train  # train images (relative to 'path')  8219 images
+val: images/val  # val images (relative to 'path')  588 images
+test: images/test  # test images (optional)  2936 images
+
+# Classes
+names:
+  0: target
