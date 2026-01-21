@@ -14,7 +14,7 @@ pip install -r requirements.txt
         datasets/[数据集名称]/
                 ├── images/
                 │   ├── train/
-                │   ├── val/datasets
+                │   ├── val/
                 │   └── test/
                 └── labels/
                     ├── train/
